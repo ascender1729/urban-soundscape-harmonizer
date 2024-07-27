@@ -3,7 +3,7 @@
 AI-Driven Acoustic Environment Optimizer for Urban Areas
 
 ## Project Overview
-This project aims to develop an AI system that analyzes urban sound patterns, identifies sources of noise pollution, and generates real-time interventions to optimize the urban soundscape using simulated IoT acoustic sensors, machine learning for sound classification, and basic generative techniques to create sound masking solutions.
+This project develops an AI system that analyzes urban sound patterns, identifies noise pollution sources, and generates real-time interventions to optimize the urban soundscape using simulated IoT acoustic sensors, machine learning for sound classification, and basic generative techniques for sound masking.
 
 ## Setup and Installation
 1. Clone the repository
@@ -12,18 +12,21 @@ This project aims to develop an AI system that analyzes urban sound patterns, id
 4. Run the application: .\scripts\run_app.ps1
 
 ## Project Structure
-[Project structure will be added here]
+- src/: Source code
+  - ackend/: FastAPI backend
+  - rontend/: React frontend
+  - ml/: Machine learning models
+  - iot/: IoT sensor simulation
+- 	ests/: Unit tests
+- scripts/: Setup and run scripts
+- docker-compose.yml: Docker Compose configuration
+- Dockerfile: Docker configuration for the backend
 
 ## Technologies Used
-- Python
-- FastAPI
+- Python (FastAPI, TensorFlow)
 - React
-- TensorFlow/PyTorch
 - Docker
 - InfluxDB
 
-## Contributing
-[Contribution guidelines will be added here]
-
 ## License
-This project is licensed under the MIT License.
+MIT License

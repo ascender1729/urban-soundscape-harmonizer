@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - influxdb
+    environment:
+      - INFLUXDB_URL=http://influxdb:8086
+
+  frontend:
+    build: ./src/frontend
+    ports:
+      - "3000:3000"
+
+  influxdb:
+    image: influxdb:2.0
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+
+volumes:
+  influxdb-data:
