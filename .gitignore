@@ -1,5 +1,6 @@
 # Dependencies
 /node_modules
+/src/frontend/node_modules
 /.pnp
 .pnp.js
 
@@ -23,7 +24,7 @@ yarn-error.log*
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.so
 
 # Virtual Environment
@@ -49,3 +50,7 @@ logs
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Package lock files
+package-lock.json
+yarn.lock
