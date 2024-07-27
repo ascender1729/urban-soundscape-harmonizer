@@ -1,0 +1,28 @@
+.dashboard {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-title {
+  color: #333;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.location-data {
+  transition: all 0.3s ease;
+}
+
+.location-data:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.noise-level {
+  font-weight: bold;
+  text-align: center;
+}
+
+.frequency-distribution {
+  font-size: 0.8rem;
+  color: #666;
+}
