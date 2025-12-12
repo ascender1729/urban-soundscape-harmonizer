@@ -222,3 +222,39 @@ We welcome contributions to the Urban Soundscape Harmonizer! Please follow these
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📖 Citation
+
+If you use this project in your research or work, please cite it as:
+
+### BibTeX
+```bibtex
+@software{dubasi2024_urbansoundscape,
+  author       = {Dubasi, Pavan Kumar},
+  title        = {Urban Soundscape Harmonizer: IoT-based Urban Noise Monitoring System},
+  year         = {2024},
+  publisher    = {GitHub},
+  url          = {https://github.com/ascender1729/urban-soundscape-harmonizer}
+}
+```
+
+### APA Format
+Dubasi, P. K. (2024). *Urban Soundscape Harmonizer: IoT-based Urban Noise Monitoring System*. GitHub. https://github.com/ascender1729/urban-soundscape-harmonizer
+
+### IEEE Format
+P. K. Dubasi, "Urban Soundscape Harmonizer: IoT-based Urban Noise Monitoring System," GitHub, 2024. [Online]. Available: https://github.com/ascender1729/urban-soundscape-harmonizer
+
+---
+
+## 👤 Author
+
+**Pavan Kumar Dubasi**  
+Principal AI Consultant | VibeTensor
+
+- 🌐 Website: [dubasipavankumar.com](https://dubasipavankumar.com)
+- 💼 LinkedIn: [in/im-pavankumar](https://linkedin.com/in/im-pavankumar)
+- 🐦 Twitter: [@the_complex_one](https://twitter.com/the_complex_one)
+- 📧 Email: pavan.dubasi2024@gmail.com
+- 🆔 ORCID: [0009-0006-1060-4598](https://orcid.org/0009-0006-1060-4598)
